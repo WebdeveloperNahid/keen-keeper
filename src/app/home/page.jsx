@@ -1,10 +1,13 @@
+import HomeDetailsPage from "./[id]/page";
 
 
-const HomePage = () => {
+const HomePage = async () => {
+    const res = await fetch("/public/ApiData.json");
+    const data = await res.json();
     return (
         <div>
-            <p className="bg-green-700 text-yellow-700  p-10
-            ">This is Home Page</p>
+            <HomeDetailsPage></HomeDetailsPage>
+            <h1>{data.length} </h1>
         </div>
     );
 };

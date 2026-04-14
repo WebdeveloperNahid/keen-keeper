@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman orientation. We studied together through finals every semester. She now works as a UX designer in New York.",
+    "goal": 14,
+    "next_due_date": "2025-07-01"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "david.kim@outlook.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager at the company. Taught me everything about software architecture. Still meet for coffee once a month.",
+    "goal": 30,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "lisa.nakamura@yahoo.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["childhood", "family friend"],
+    "bio": "Grew up two houses down from each other. Her family and mine vacationed together every summer. She moved to Tokyo last year.",
+    "goal": 21,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "jwright89@proton.me",
+    "days_since_contact": 52,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "We shared an apartment for three years in university. Best road trip partner I have ever had. Now raising twins in Austin.",
+    "goal": 30,
+    "next_due_date": "2025-06-15"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Okonkwo",
+    "picture": "https://randomuser.me/api/portraits/women/26.jpg",
+    "email": "sarah.okonkwo@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "close friend"],
+    "bio": "Colleague from the product team. We bonded over a late-night product launch. She gives the most honest feedback of anyone I know.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "marcus.j@icloud.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["hobby", "gym buddy"],
+    "bio": "We met at a local triathlon training group three years ago. Push each other through every race. He qualified for Boston Marathon this year.",
+    "goal": 14,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 7,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/54.jpg",
+    "email": "priya.sharma@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["neighbor", "close friend"],
+    "bio": "Lives across the hall. We cook dinner together every week and swap books constantly. The most well-read person I have ever met.",
+    "goal": 7,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 8,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/58.jpg",
+    "email": "tombaker@hotmail.com",
+    "days_since_contact": 44,
+    "status": "overdue",
+    "tags": ["high school", "old friend"],
+    "bio": "Best friend from high school. We were inseparable for four years. He moved to Vancouver for grad school and we have been bad at keeping in touch ever since.",
+    "goal": 30,
+    "next_due_date": "2025-06-20"
+  }
+]
