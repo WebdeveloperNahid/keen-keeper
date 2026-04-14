@@ -3,7 +3,8 @@
 const HomePage = () => {
     return (
         <div>
-            This is Home Page
+            <p className="bg-green-700 text-yellow-700  p-10
+            ">This is Home Page</p>
         </div>
     );
 };

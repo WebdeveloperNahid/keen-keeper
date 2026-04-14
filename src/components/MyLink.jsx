@@ -8,7 +8,7 @@ const MyLink = ({href, children}) => {
     const pathname = usePathname();
     console.log(pathname)
     return (
-        <Link href={href} className={`${pathname === href ? "text-white" : ""}`}>{children} </Link>
+        <Link href={href} className={`${pathname === href ? "text-white bg-green-800 px-3 py-1" : ""}`}>{children} </Link>
     );
 };
 
