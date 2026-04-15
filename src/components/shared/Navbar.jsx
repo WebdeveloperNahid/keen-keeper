@@ -6,12 +6,13 @@ import { IoHome } from "react-icons/io5";
 import { MdOutlineAccessTime } from "react-icons/md";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useState } from "react";
+import { TfiStatsUp } from "react-icons/tfi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const NavItems = [
     {
-      path: "/",
+      path: "/home",
       text: "Home",
       icon: <IoHome />,
     },
@@ -24,20 +25,20 @@ const Navbar = () => {
     {
       path: "/stats",
       text: "Stats",
-      icon: <MdOutlineAccessTime />,
+      icon: <TfiStatsUp />,
     },
   ];
 
   return (
-    <nav className=" shadow-2xl container mx-auto h-16 ">
+    <nav className=" shadow-2xl w-full mx-auto h-16 ">
       <div className="container mx-auto flex items-center justify-between h-full px-6 gap-5 ">
         <Image
           src={logoImg}
           alt="logo"
           priority
-          // width={100}
-          // height={100}
-          // className="h-10 w-auto"
+          width={100}
+          height={100}
+          
         ></Image>
 
         <ul className=" hidden md:flex gap-4 justify-between items-center font-bold ">

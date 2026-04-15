@@ -1,13 +1,14 @@
-import HomeDetailsPage from "./[id]/page";
+import HomepageShort from "./homePageShort/HomepageShort";
 
 
-const HomePage = async () => {
-    const res = await fetch("/public/ApiData.json");
-    const data = await res.json();
+const HomePage = () => {
+    // const res = await fetch("/public/ApiData.json");
+    // const data = await res.json();
     return (
         <div>
-            <HomeDetailsPage></HomeDetailsPage>
-            <h1>{data.length} </h1>
+            <HomepageShort></HomepageShort>
+            {/* <HomeDetailsPage></HomeDetailsPage>
+            <h1>{data.length} </h1> */}
         </div>
     );
 };
