@@ -94,5 +94,29 @@
     "bio": "Best friend from high school. We were inseparable for four years. He moved to Vancouver for grad school and we have been bad at keeping in touch ever since.",
     "goal": 30,
     "next_due_date": "2025-06-20"
+  },
+  {
+    "id": 9,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "olivia.martinez@gmail.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": ["college", "study group"],
+    "bio": "Met in data structures class and survived two brutal exam seasons together. She is now a backend engineer at a fintech startup in Chicago.",
+    "goal": 21,
+    "next_due_date": "2025-06-25"
+  },
+  {
+    "id": 10,
+    "name": "Ryan Chen",
+    "picture": "https://randomuser.me/api/portraits/men/46.jpg",
+    "email": "ryan.chen@icloud.com",
+    "days_since_contact": 29,
+    "status": "almost due",
+    "tags": ["work", "lunch buddy"],
+    "bio": "Sat next to each other on the first day at our last job and have been friends ever since. He always knows the best restaurants in the city.",
+    "goal": 21,
+    "next_due_date": "2025-07-08"
   }
 ]

@@ -20,11 +20,11 @@ const HomepageShort = () => {
           <span className="text-green-800  font-bold text-2xl ">3</span>
           <p>On Track</p>
         </div>
-        <div className="py-8 px-10 shadow-2xl font-semibold fontatri rounded-2xl">
+        <div className="py-8 px-10 shadow-2xl font-semibold  rounded-2xl">
           <span className="text-green-800  font-bold text-2xl ">6</span>
           <p>Need Attention</p>
         </div>
-        <div className="py-8 px-10 shadow-2xl font-semibold">
+        <div className="py-8 px-10 shadow-2xl font-semibold rounded-2xl">
           <span className="text-green-800  font-bold text-2xl ">12</span>
           <p>Interactions This Month</p>
         </div>

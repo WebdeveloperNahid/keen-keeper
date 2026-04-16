@@ -1,14 +1,27 @@
+
+import Card from "./Card";
 import HomepageShort from "./homePageShort/HomepageShort";
 
 
-const HomePage = () => {
-    // const res = await fetch("/public/ApiData.json");
-    // const data = await res.json();
+const HomePage =async () => {
+    const res = await fetch(" http://localhost:3000/ApiData.json");
+    const data = await res.json();
+    console.log(data)
     return (
-        <div>
+        <div className="container mx-auto space-y-5">
             <HomepageShort></HomepageShort>
-            {/* <HomeDetailsPage></HomeDetailsPage>
-            <h1>{data.length} </h1> */}
+           
+           
+            <h1 className="font-bold">Your Friends </h1> 
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 text-center">
+                {
+                data.map(singleData => <Card key = {singleData.id} singleData = {singleData} ></Card>
+                     
+                )
+            }
+            
+            </div>
         </div>
     );
 };
