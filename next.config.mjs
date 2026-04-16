@@ -2,7 +2,12 @@
 const nextConfig = {
   /* config options here */
   images: {
-    domains: ["randomuser.me"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
+    ],
   },
 };
 

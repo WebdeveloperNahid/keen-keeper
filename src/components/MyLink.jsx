@@ -8,7 +8,7 @@ const MyLink = ({href, children, icon}) => {
     const pathname = usePathname();
     console.log(pathname)
     return (
-        <Link href={href} className={`flex justify-center items-center gap-1 ${pathname === href ? "text-white bg-green-800 px-3 py-1" : ""}`}>{icon} <span>{children}</span> </Link>
+        <Link href={href} className={`flex justify-center items-center gap-1 ${pathname === href ? "text-white bg-green-900 px-3 py-1" : ""}`}>{icon} <span>{children}</span> </Link>
     );
 };
 

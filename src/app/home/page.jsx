@@ -6,7 +6,7 @@ import HomepageShort from "./homePageShort/HomepageShort";
 const HomePage =async () => {
     const res = await fetch(" http://localhost:3000/ApiData.json");
     const data = await res.json();
-    console.log(data)
+    
     return (
         <div className="container mx-auto space-y-5">
             <HomepageShort></HomepageShort>
