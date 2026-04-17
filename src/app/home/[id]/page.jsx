@@ -9,7 +9,7 @@ import {
 import { RiDeleteBinLine } from "react-icons/ri";
 
 const homeDetailsPromise = async function () {
-  const res = await fetch("http://localhost:3000/ApiData.json");
+  const res = await fetch("https://keen-keeper-omega-ten.vercel.app/ApiData.json");
   const showData = await res.json();
   return showData;
 };

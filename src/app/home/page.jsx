@@ -4,7 +4,7 @@ import HomepageShort from "./homePageShort/HomepageShort";
 
 
 const HomePage =async () => {
-    const res = await fetch("http://localhost:3000/ApiData.json");
+    const res = await fetch("https://keen-keeper-omega-ten.vercel.app/ApiData.json");
     const data = await res.json();
     
     return (
