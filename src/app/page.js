@@ -1,7 +1,10 @@
 import Image from "next/image";
+import HomePage from "./home/page";
 
 export default function Home() {
   return (
-    <h2>Hello Next js</h2>
+    <div>
+      <HomePage></HomePage>
+    </div>
   );
 }

@@ -1,7 +1,6 @@
 import DetailsToTimeline from "@/app/context/DetailsToTimeline";
 import Image from "next/image";
-import { BsChatText } from "react-icons/bs";
-import { FaPhoneAlt } from "react-icons/fa";
+
 import { FaBoxArchive } from "react-icons/fa6";
 import {
   MdOutlineNotificationsActive,
@@ -23,7 +22,7 @@ const HomeDetailsPage = async ({ params }) => {
   const shows = showDataHome.find((show) => show.id === Number(id));
   console.log(shows);
   return (
-    <div className="container mx-auto grid grid-cols-5 grid-rows-3 gap-4 my-10">
+    <div className="container mx-auto grid grid-cols-1 grid-row-1 md:grid-cols-5 grid-rows-3 gap-4 my-10">
       <div className=" col-span-2 row-span-2 bg-fuchsia-200 text-center p-5 rounded-2xl">
         <div>
           <div className="flex justify-center">
@@ -110,7 +109,7 @@ const HomeDetailsPage = async ({ params }) => {
 
       {/* Coling functionaly tosty another section data pass */}
 
-      <div className="col-span-3 row-span-1 bg-blue-200 rounded-2xl p-10 py-15">
+      <div className=" md:col-span-3 row-span-1 bg-blue-200 rounded-2xl p-10 py-15">
         <div className="flex justify-between items-center ">
           <h2 className="font-bold text-green-800">Quick Check-In</h2>
         </div>

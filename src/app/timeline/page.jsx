@@ -30,7 +30,7 @@ const TimelinePage = () => {
         <select
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
-          className="border px-4 py-2 rounded-md"
+          className="border border-amber-300 font-bold px-4 py-2 rounded-md"
         >
           <option value="all">Filter timeline</option>
           <option value="call">Call</option>
@@ -40,7 +40,7 @@ const TimelinePage = () => {
       </div>
       
       {filteredData.length === 0 ? (
-        <p>No Data Found</p>
+        <p className="text-3xl font-bold my-10">No Data Found</p>
       ) : (
         filteredData.map((item, index) => (
           <div key={index} className="p-3 m-2">

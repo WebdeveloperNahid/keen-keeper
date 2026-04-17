@@ -11,7 +11,7 @@ const HomepageShort = () => {
       </p>
       <button className="bg-green-800 px-2 py-1 text-white rounded-[5px]">+ Add a Friend</button>
 
-      <div className="grid grid-cols-2 md: grid-cols-4 rounded-2xl gap-5 container mx-auto my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 rounded-2xl gap-5 container mx-auto my-10">
 
         <div className="py-8 px-10 shadow-2xl font-semibold rounded-2xl">
           <span className="text-green-800  font-bold text-2xl ">10</span>

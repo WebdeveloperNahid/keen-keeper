@@ -28,7 +28,7 @@ const Fotter = () => {
       <hr />
     
 
-      <div className="flex justify-between container mx-auto ">
+      <div className="  md:flex justify-between container mx-auto ">
         <span>© 2026 KeenKeeper. All rights reserved.</span>
         <div>
             <span ><span> Privacy Policy </span> <span className="p-5">  Terms of Service </span> Cookies </span>
