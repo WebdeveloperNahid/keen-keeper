@@ -5,6 +5,7 @@ import Navbar from "@/components/shared/Navbar";
 import Fotter from "@/components/shared/Fotter";
 
 import Providers from "./lib";
+import { ToastContainer } from "react-toastify";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,9 @@ export default function RootLayout({ children }) {
           {children}
           <Fotter> </Fotter>
         </Providers>
+
+       <ToastContainer />
+         
       </body>
     </html>
   );

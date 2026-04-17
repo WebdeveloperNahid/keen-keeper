@@ -4,12 +4,14 @@ import { MdOutlineVideoCall } from "react-icons/md";
 import { NotificationContext } from "@/app/context/ForDetatilsToTime";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsChatText } from "react-icons/bs";
+import { toast } from "react-toastify";
 
 const DetailsToTimeline = ({ shows }) => {
   const { notification, setNotification } = useContext(NotificationContext);
 
   const handleDetailsToTimeline = (type) => {
     setNotification([...notification, { ...shows, type }]);
+    toast.success(`${type} added to timeline`)
   };
 
   return (
